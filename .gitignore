@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual env
+venv/
+.env/
+
+# Data and outputs
+output/
+runs/
+yolo_dataset/
+input/videos/
+output/frames/
+output/faces/
+output/faces_clustered/
+
+# Models
+*.pt
+*.onnx
+*.engine
+
+# Media
+*.mp4
+*.avi
+*.mov
+
+# OS
+Thumbs.db
+.DS_Store
+face_db.npy
+
